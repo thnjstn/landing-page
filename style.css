@@ -49,7 +49,7 @@ a, .hero-text p {
 
 .hero-text h1 { 
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -70,4 +70,45 @@ button {
     margin: auto;
     text-align: center;
     padding: 120px 0px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.container-2 > h1 {
+    margin: 48px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.image {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.inside-image {
+    width: 60px;
+    height: 50px;
+    padding: 50px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+.image-text {
+    color: #1F2937;
 }
