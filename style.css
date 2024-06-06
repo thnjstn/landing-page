@@ -90,6 +90,8 @@ button {
 .image-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -139,4 +141,40 @@ button {
     font-size: 20px;
     font-weight: bolder;
     text-align: right;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+}
+
+.call-to-action-container {
+    width: 80%;
+    background-color: #3882F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 8px;
+
+    button {
+        border: 2px solid white;
+        width: 120px;
+        height: 40px;
+    }
+}
+
+.call-text {
+    color: white;
+    text-align: left;
+    h1 {
+        margin-bottom: 0;
+    }
+    
+    p {
+        margin-top: 0;
+    }
 }
